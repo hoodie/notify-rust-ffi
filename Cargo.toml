@@ -1,0 +1,11 @@
+[package]
+name = "notify-rust-ffi"
+version = "0.1.0"
+authors = ["Hendrik Sollich <hendrik@hoodie.de>"]
+
+[dependencies.notify-rust]
+path = "../notify-rust"
+
+[lib]
+name = "notify_rust"
+crate-type = ["dylib"]
